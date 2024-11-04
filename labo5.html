@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon site web</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f7fafc;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 0.1rem;
+        }
+        main {
+            max-width: 1200px;
+            margin: 2rem auto;
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            gap: 1rem;
+        }
+        section{
+            background-color: #edf2f7;
+            padding: 1rem;
+            border: 1px solid #ccc;
+            display: flex;
+            flex-direction: column;
+            display: flex;
+            margin-bottom: 0;
+            padding-top: 0;
+        }
+        aside{
+            background-color: #7d99b4;
+            padding: 1rem;
+            border: 1px solid #ccc;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 0;
+            padding-top: 0;
+        }
+        h1 {
+            font-size: 2.5rem;
+        }
+        h2 {
+            font-size: 2.25rem;
+            margin-bottom: 1rem;
+            font-weight: bold;
+        }
+        h3{
+            font-size: 2rem;
+        }
+        img {
+            padding: 2rem;
+            padding-left: 0%;
+            margin-bottom: 1rem;
+        }
+        p {
+            flex-grow: 1;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            bottom: 0;
+            width: 100%;
+            height: 30px;
+            position: fixed;
+        }
+        @media (max-width: 805px) {
+            main {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mon site web</h1>
+    </header>
+    <main>
+        <aside>
+            <h3>Titre Secondaire</h3>
+            <img alt="Une personne versant du café" src="IMAGE_URL_1" />
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, nobis. Tempora sit rem vero iure voluptatum odit?</p>
+        </aside>
+        <section>
+            <h2>Titre Primaire</h2>
+            <p>Un aviona est un aérodyne (un aéronef plus lourd que l'air), entraîné par un propulseurb, dont la portance aérodynamique est obtenue par des surfaces fixes. Lorsque la portance est obtenue (à l'arrêt ou en mouvement) par des surfaces en rotation, l'appareil est alors dit à « voilure tournante » (hélicoptère, autogire, girodyne).
+
+                Un avion équipé d'un dispositif lui permettant de décoller et de se poser sur l'eau (amerrir) est un hydravion. D'autres accessoires permettent l'atterrissage et le décollage sur des surfaces enneigées comme des skis situés sous les roues de l'avion.
+                Le substantif masculin2,3,4 « avion » est un dérivé savant du latin avisc. Il est attesté au XIXe siècle2 : d'après le Trésor de la langue française informatisé3, il a peut-être été créé en 1875 mais sa plus ancienne occurrence connue se trouve dans le brevet no BB 205 155, déposé le 19 avril 1890 par Clément Ader5 et relatif à « un appareil ailé pour la navigation aérienne dénommé Avion »6. C'est ainsi qu'Ader a appelé l'appareil baptisé Éole, avec lequel il décolle le 9 octobre 1890 puis rase le sol sur 50 mètres à 20 cm au-dessus de la piste. Cet événement ne sera toutefois pas homologué comme étant un vol : la hauteur atteinte était insuffisante pour le qualifier de tel.</p>
+        </section>
+        <aside>
+            <h3>Titre Secondaire</h3>
+            <img alt="Une tasse de café avec un design" src="IMAGE_URL_2" />
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam earum iure corporis repudiandae officia. Dignissimos voluptates, unde repudiandae.</p>
+        </aside>
+    </main>
+    <footer>
+        <p>auteur: Louis-Philippe Boucher</p>
+    </footer>
+</body>
+</html>
+
